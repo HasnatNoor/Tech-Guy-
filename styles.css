@@ -1,0 +1,134 @@
+* {
+    font-family: 'Times New Roman', Times, serif ;     
+}
+#services i {
+    font-size: 10em; 
+}
+p{ font-size: 24px;}
+
+p:hover{ color: rgb(255, 251, 0);
+border: crimson;}
+
+h3{  font-size: 28px;}
+
+h3:hover{ color: blue;}
+
+#services figure:hover > i{
+    color: #ef3b4d;
+}
+#services i:hover { 
+
+    color: #ef3b4d;
+}
+
+
+body{
+    margin: 0px;
+    padding:0px; 
+}
+#logo {
+    height: 80px;
+    padding: 10px;
+    margin-left: 1em;
+} 
+h1{
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2:hover{ color: darkslategrey;}
+
+
+main > section,
+footer {
+    padding: 1em;
+    text-align: center;
+}
+
+#home{
+    background-color:	darkmagenta;
+}
+main > section > p {
+    font-size: 1.4em;
+    border-width: 1px 0 1px 0;
+    border-color: rgb(231, 255, 12);
+    border-style: solid;
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+#home button {
+    background-color:  	teal;
+    color: #ffffff;
+    transition: ease-in-out;
+    border-radius: 2em;
+    padding: .5em 2em;
+    font-size: 2em;
+    border: none;
+}
+#home button:hover {
+    background-color: rgb(236, 102, 13);
+    cursor: pointer;
+    color: black;
+}
+#services {
+    background-color: mediumaquamarine;
+}
+#services .figures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+#services figure {
+    display:inline_block;
+   
+}
+#contact {
+    background-color: #aaf3dd;    
+}
+ul{
+list-style: none;
+display: flex;
+justify-content: center;
+margin: 1px;
+
+}
+footer{
+    background-color: #222;
+    color: white;
+}
+footer i{
+    font-size: 20px;
+    margin: 2px 5px;
+}
+footer:hover i{
+    color: #ef3b4d;
+}
+i{ transition: color 1s,background-color 1s;
+}
+#contact i {
+    font-size: 1.5em;
+    border-radius: 50% ; 
+    border: 2px solid #222;
+    padding: 1em 1em 1em;
+    margin: 2px 2px 2px; 
+   
+}
+.ce{ text-align: center;}
+#contact i:hover {
+    background-color: #222;
+    color:#fcdea6;
+
+}
